@@ -1,0 +1,15 @@
+{
+  "pilot_dates": [
+    "2021-01-04",
+    "2021-11-01",
+    "2022-03-01",
+    "2022-09-01",
+    "2023-04-03",
+    "2024-01-02"
+  ],
+  "completed_episodes": 6,
+  "unique_returns_at_12_decimals": 6,
+  "return_standard_deviation": 0.0010096068986631653,
+  "return_range": 0.0027659198235798765,
+  "full_grid_is_meaningful": true
+}

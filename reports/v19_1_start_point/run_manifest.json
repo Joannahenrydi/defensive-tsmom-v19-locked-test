@@ -1,0 +1,111 @@
+{
+  "protocol_commit": "ba5e80a",
+  "protocol_frozen_before_full_grid": true,
+  "pilot_used_only_for_continuation": true,
+  "strategy_version": "v19.1",
+  "post_oos_diagnostic": true,
+  "workers": 4,
+  "python": "3.12.2",
+  "artifacts": [
+    {
+      "path": "reports/v19_1_start_point/all_starting_points.csv.gz",
+      "sha256": "9a05ad4ea03cc098f0b1b5923ef0c6994c59a3d65a83c0bfa9b758b322a757d9",
+      "bytes": 128131
+    },
+    {
+      "path": "reports/v19_1_start_point/best_20_starting_points.csv",
+      "sha256": "7f6c030393dbebb602076c16351220372be0dbf836013ee2c508e6b172e5effd",
+      "bytes": 7903
+    },
+    {
+      "path": "reports/v19_1_start_point/by_start_month.csv",
+      "sha256": "932612c49f7302a6098cd7c70036d16bb45aebd96994389cc3268712e6b8d607",
+      "bytes": 879
+    },
+    {
+      "path": "reports/v19_1_start_point/by_start_year.csv",
+      "sha256": "a9cea8c944471e5e8fcc5a7b4e7ef39cef7f46065018bc10fff1fd9717d35050",
+      "bytes": 638
+    },
+    {
+      "path": "reports/v19_1_start_point/decision.json",
+      "sha256": "350a6bad6b7aeb79eb59827fbe6f6a027870cdfb09f131282f1b226459a414bb",
+      "bytes": 2011
+    },
+    {
+      "path": "reports/v19_1_start_point/expanding_mean.csv",
+      "sha256": "d9ca8690a01cc55a88f5fddef6f47aae344716d13bd422eb98eaeb65fb70479d",
+      "bytes": 33338
+    },
+    {
+      "path": "reports/v19_1_start_point/figures/01_return_distribution.png",
+      "sha256": "ceb3b8ceb400001ecc49d89d836a311c1043d5d196bbb3111a7886a2613cf51d",
+      "bytes": 53354
+    },
+    {
+      "path": "reports/v19_1_start_point/figures/02_return_by_start_date.png",
+      "sha256": "289db37859d1c7d1ee1eab26c608da36582060146e83d75464f5ed282a7fe58e",
+      "bytes": 236726
+    },
+    {
+      "path": "reports/v19_1_start_point/figures/03_rolling_mean.png",
+      "sha256": "7d6b5565d50a85a623887b548f27372f3737a7fa0d3d977c9b2c6a339e3da12e",
+      "bytes": 96188
+    },
+    {
+      "path": "reports/v19_1_start_point/figures/04_start_year_robustness.png",
+      "sha256": "d222eb391da35999d20e76144af9878830a9095df332c2ba39866d87d2582967",
+      "bytes": 59790
+    },
+    {
+      "path": "reports/v19_1_start_point/figures/05_start_month_robustness.png",
+      "sha256": "5f8ca6e03861037405aa486d44ababe46ab2c065538a822b97b9f725fb933cd6",
+      "bytes": 57538
+    },
+    {
+      "path": "reports/v19_1_start_point/figures/06_year_month_heatmap.png",
+      "sha256": "390f901b62e41854766047dece893010e806524221c5f14b125439dc45a532c5",
+      "bytes": 83919
+    },
+    {
+      "path": "reports/v19_1_start_point/figures/07_empirical_cdf.png",
+      "sha256": "b8ab86f7c6cff1abb0b0e154ad4efa74a35487b1fc7f2aee290d5e4f92e264ea",
+      "bytes": 62061
+    },
+    {
+      "path": "reports/v19_1_start_point/figures/08_turnover_vs_return.png",
+      "sha256": "09540f4ffd525242a39d2e3066e04b148bde05fc6ae46ca550ec8fdfc56faefa",
+      "bytes": 101370
+    },
+    {
+      "path": "reports/v19_1_start_point/figures/09_episode_drawdowns.png",
+      "sha256": "453661824e96f83a22c2a2c6210ca1683a40f5814d2aa655ee53145cc5b6a656",
+      "bytes": 43773
+    },
+    {
+      "path": "reports/v19_1_start_point/figures/10_expanding_mean_bootstrap.png",
+      "sha256": "7060de44c826677cde5c39a5c286797d30eff4e9ee37d11776f455141488281e",
+      "bytes": 87139
+    },
+    {
+      "path": "reports/v19_1_start_point/figures/v19_1_start_point_figures.pdf",
+      "sha256": "c9913b7f3e26aa2c61903e27661bcdee2063577a5eda882b334b1a4a79ebab4e",
+      "bytes": 85293
+    },
+    {
+      "path": "reports/v19_1_start_point/pilot_decision.json",
+      "sha256": "f1b263345a3a1dc518758ecdacb7cf5972d4e40f7fd20028c251bd8d99e02dbf",
+      "bytes": 329
+    },
+    {
+      "path": "reports/v19_1_start_point/pilot_start_points.csv",
+      "sha256": "331a6166012ae4547a169978634c42605bc29461d4944ba835e8091ab796af4c",
+      "bytes": 2113
+    },
+    {
+      "path": "reports/v19_1_start_point/worst_20_starting_points.csv",
+      "sha256": "e4dd8eea1457ffe8c9ca74b71778739c4001430306d6191367f96c9dcc36437e",
+      "bytes": 8314
+    }
+  ]
+}

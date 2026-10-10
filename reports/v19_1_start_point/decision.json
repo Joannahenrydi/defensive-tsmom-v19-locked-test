@@ -1,0 +1,60 @@
+{
+  "status": "V19_1_START_POINT_ROBUSTNESS_NOT_CONFIRMED",
+  "post_oos_diagnostic": true,
+  "orders_allowed": false,
+  "protocol_sha256": "a3137868432a84b29b8261d9f8102ca9460e50bb0a9142bb10169e03482392d3",
+  "source_sha256": "82347fef112a5f04dc2b5accf947f362eefe1a0a89f1c59bf143a369ab63e32e",
+  "episode_holding_sessions": 21,
+  "candidate_starting_points": 984,
+  "completed_episodes": 984,
+  "failed_episodes": 0,
+  "numerical_boundary_solutions": 0,
+  "overall": {
+    "count": 984,
+    "mean": 0.00029309380971058327,
+    "median": 0.0003381403958443441,
+    "standard_deviation": 0.0012458725390343919,
+    "positive_rate": 0.7428861788617886,
+    "loss_rate": 0.2571138211382114,
+    "minimum": -0.005966350023479783,
+    "p05": -0.001988388526930368,
+    "p25": -1.6157594497939742e-05,
+    "p75": 0.0007686561508043477,
+    "p95": 0.0023601192607700066,
+    "maximum": 0.004769808332766301
+  },
+  "double_transaction_cost": {
+    "count": 984,
+    "mean": 0.00019146044101210996,
+    "median": 0.000277925742233176,
+    "standard_deviation": 0.0012505316739875576,
+    "positive_rate": 0.7022357723577236,
+    "loss_rate": 0.29776422764227645,
+    "minimum": -0.006126339502547928,
+    "p05": -0.0021826050382086066,
+    "p25": -0.00010977224930838747,
+    "p75": 0.0006719554012393769,
+    "p95": 0.0022288610185811717,
+    "maximum": 0.004567538204498067
+  },
+  "block_bootstrap": {
+    "seed": 1901,
+    "replications": 5000,
+    "block_length": 21,
+    "mean": 0.0002982408137900902,
+    "lower_95": 2.9683188972728226e-05,
+    "upper_95": 0.0005576231197289028
+  },
+  "gates": {
+    "at_least_750_completed_episodes": true,
+    "zero_failed_episodes": true,
+    "zero_numerical_boundary_solutions": true,
+    "overall_mean_positive": true,
+    "overall_median_positive": true,
+    "overall_positive_rate_at_least_55pct": true,
+    "every_start_year_passes": false,
+    "block_bootstrap_lower_95_positive": true,
+    "double_cost_mean_positive": true,
+    "double_cost_median_positive": true
+  }
+}

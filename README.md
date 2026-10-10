@@ -15,6 +15,21 @@ The source strategy was frozen after train (2008–2016) and reused development 
 locked test is 2021-01-04 through 2024-12-31. See
 [`docs/V19_LOCKED_TEST_PROTOCOL.md`](docs/V19_LOCKED_TEST_PROTOCOL.md).
 
+## Strategy source
+
+Both tested definitions are included in this repository, together with every local module needed
+to reproduce them:
+
+| Version | Human-readable specification | Executable implementation | Backtest entry point |
+|---|---|---|---|
+| v19 | [v19 strategy](V19_STRATEGY.md) | [`strategy/v19.py`](strategy/v19.py) | [`scripts/run_locked_test.py`](scripts/run_locked_test.py) |
+| v19.1 | [v19.1 starting-point experiment](V19_1_STRATEGY.md) | [`strategy/v19_1.py`](strategy/v19_1.py) | [`scripts/run_v19_1_start_point_robustness.py`](scripts/run_v19_1_start_point_robustness.py) |
+
+v19.1 does not introduce a new alpha model. It repeatedly starts the frozen v19 implementation
+from cash and measures 21 realized sessions, including entry, rebalance and final liquidation
+costs. The shared portfolio engine is in [`backtest/cross_asset_budget.py`](backtest/cross_asset_budget.py),
+and the committed input snapshot and freeze record are under [`inputs/`](inputs/).
+
 ## Locked-test result
 
 | Evaluation | Net CAGR | Net Sharpe | Max DD | Worst month |

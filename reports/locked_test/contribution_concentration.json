@@ -1,0 +1,15 @@
+{
+  "top_5_absolute_contribution_share": 0.7800140926393221,
+  "top_5_symbols": [
+    "SPY",
+    "IEF",
+    "LQD",
+    "BIL",
+    "HYG"
+  ],
+  "largest_contributor": "SPY",
+  "largest_contribution": 0.043383138052229056,
+  "largest_detractor": "IEF",
+  "largest_detractor_contribution": -0.015415139411864273,
+  "reconciliation_error": 2.6020852139652106e-18
+}

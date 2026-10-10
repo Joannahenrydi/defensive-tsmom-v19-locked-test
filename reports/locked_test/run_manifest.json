@@ -1,0 +1,138 @@
+{
+  "protocol_commit": "d936f47693ad07d3b3584c7fc576ed7435f22ac5",
+  "protocol_frozen_before_holdout": true,
+  "locked_test_run_count": 1,
+  "strategy_version": "v19",
+  "test_window": [
+    "2021-01-04",
+    "2024-12-31"
+  ],
+  "python": "3.12.2",
+  "artifacts": [
+    {
+      "path": "reports/locked_test/asset_attribution.csv",
+      "sha256": "f77b807135054820caf5b8773ba75672e78bacf140c3b5e8540af2464fb9a877",
+      "bytes": 2244
+    },
+    {
+      "path": "reports/locked_test/baseline_daily.csv",
+      "sha256": "c8f1719f40002346a886f6547337df6bbfcd8627b22d78566a30e01453727034",
+      "bytes": 545237
+    },
+    {
+      "path": "reports/locked_test/baseline_rebalances.csv",
+      "sha256": "eedd0c0520e9c86e0c1639f87931ea12ad4a2d713da46f7842ea1c00fa376674",
+      "bytes": 116542
+    },
+    {
+      "path": "reports/locked_test/baseline_weights.csv.gz",
+      "sha256": "018e49db3ab0f2eca9452db191038d73d9cf7c938bc5d4b0d9cfc38c12434918",
+      "bytes": 1695864
+    },
+    {
+      "path": "reports/locked_test/contribution_concentration.json",
+      "sha256": "66f61631667a2571a44c2888f18447b0ed7a2415d6ef1d1aea228541b48730f2",
+      "bytes": 361
+    },
+    {
+      "path": "reports/locked_test/decision.json",
+      "sha256": "1fafd2f948c3e7afdbd163fccfb2ba285c5413643d389f16caff7e304b7fe207",
+      "bytes": 2623
+    },
+    {
+      "path": "reports/locked_test/double_cost_daily.csv",
+      "sha256": "546de9084e41384b0e57d5c1865b61ec55fe9e7665294b6490f25d341a82b768",
+      "bytes": 545254
+    },
+    {
+      "path": "reports/locked_test/drawdown_regime_attribution.csv",
+      "sha256": "b17b66b39b5f8a46a8930237cf45fb5c51de273c0d367970ebefbef5c371d9e1",
+      "bytes": 414
+    },
+    {
+      "path": "reports/locked_test/evaluation.csv",
+      "sha256": "e75b936d2ba219f9bc283c00c97fa1dea4ea9b2cee4373a7c048cf95e7ef6621",
+      "bytes": 1326
+    },
+    {
+      "path": "reports/locked_test/figures/01_net_growth.png",
+      "sha256": "35b3b794bd0eb09b9672a2f3e1417c952e983944e1104284b6971c913c59d3e4",
+      "bytes": 172405
+    },
+    {
+      "path": "reports/locked_test/figures/02_drawdown.png",
+      "sha256": "d0960eecdac00a8905468230fc5913a6cf7561053b440023e92a24e4cdf0a9f2",
+      "bytes": 103039
+    },
+    {
+      "path": "reports/locked_test/figures/03_calendar_returns.png",
+      "sha256": "af6351184a5892ea912768657560fefcda6bd96f9c8714381fe8d20a0083ef08",
+      "bytes": 37241
+    },
+    {
+      "path": "reports/locked_test/figures/04_monthly_heatmap.png",
+      "sha256": "028eb0e93ee609f307397fd239501af3a922d8015efe6df78f63436b1ee95e93",
+      "bytes": 71214
+    },
+    {
+      "path": "reports/locked_test/figures/05_exposure.png",
+      "sha256": "7f20c8a8e3638a4c8b09672f2d01d4e7012bb95f64bf7051124bdb833504cb61",
+      "bytes": 89225
+    },
+    {
+      "path": "reports/locked_test/figures/06_sleeve_attribution.png",
+      "sha256": "f2520abb88cfea37da93d441571f64712b91b3f294bed26dc078e6b30e7f4621",
+      "bytes": 36171
+    },
+    {
+      "path": "reports/locked_test/figures/07_asset_attribution.png",
+      "sha256": "5eca78d11bbe4ef6431a740ff4854da50411b9c7de716146034870d7a0a50c27",
+      "bytes": 43842
+    },
+    {
+      "path": "reports/locked_test/figures/08_long_short.png",
+      "sha256": "e1ef3d8271d216d570acc890d9ecb2d6cce9bed8378230a964944513f3c7f747",
+      "bytes": 50407
+    },
+    {
+      "path": "reports/locked_test/figures/09_rolling_sharpe.png",
+      "sha256": "766bb8b920bf416de87ed569d5e438e211e8c7f6586df27c3d1d9d98badbbb99",
+      "bytes": 129914
+    },
+    {
+      "path": "reports/locked_test/figures/10_regime_attribution.png",
+      "sha256": "334dac08c945ec16607132761d19fda2e828183f266deee1706dd1487e2dcbcd",
+      "bytes": 47055
+    },
+    {
+      "path": "reports/locked_test/figures/v19_locked_test_figures.pdf",
+      "sha256": "aff84492b18771fb020f32c488faba9a58dea64f4de4f43f8c7a0cd4150ea3a8",
+      "bytes": 98296
+    },
+    {
+      "path": "reports/locked_test/integrity_audit.json",
+      "sha256": "ffcecfa067dd4f7a8d82ce948f3a2908f5fb37e0dc8477ae5e3e2a9848691ebe",
+      "bytes": 899
+    },
+    {
+      "path": "reports/locked_test/long_short_attribution.csv",
+      "sha256": "b36d00d4bbaae4710afe7a8887cc28d88bab83bbc04a5ce357891dcb331b056e",
+      "bytes": 146
+    },
+    {
+      "path": "reports/locked_test/sleeve_attribution.csv",
+      "sha256": "31874709e232f8a6a8d265dcb9d3bf13e6c86c22b765040519eba6bbcfed286b",
+      "bytes": 210
+    },
+    {
+      "path": "reports/locked_test/top_drawdowns.csv",
+      "sha256": "815f1537d1787734116331a8ee617750588ba38af8cb781092859055a0d16be0",
+      "bytes": 448
+    },
+    {
+      "path": "reports/locked_test/yearly_attribution.csv",
+      "sha256": "d3ce9015109ebd70f79efd2e888a1209cc043944088ca48eb04e73a9ebe11176",
+      "bytes": 443
+    }
+  ]
+}

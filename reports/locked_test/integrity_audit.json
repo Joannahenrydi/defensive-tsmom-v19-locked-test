@@ -1,0 +1,23 @@
+{
+  "source_sha256": "82347fef112a5f04dc2b5accf947f362eefe1a0a89f1c59bf143a369ab63e32e",
+  "source_matches_development_freeze": true,
+  "protocol_sha256": "d12f2188efe8b0f8713b8057cc6d6335421617083a11d4af1f9eae3c6859569f",
+  "frozen_inputs_sha256": "b8fb6096dd732b93ae2dcf9229168035154e1f370f4a0dae3f631f0ba45661be",
+  "train_calibration": {
+    "slope": 6.537825607487652e-06,
+    "digest": "d59984125ff01d469e8b75ded4e674f6a8708b1f066b92d9ce8ef5a744ab9122",
+    "observations": 90637
+  },
+  "calibration_slope_reproduced": true,
+  "calibration_digest_reproduced": true,
+  "universe_count": 45,
+  "universe_exact": true,
+  "data_start": "2007-01-03",
+  "data_end": "2024-12-31",
+  "locked_test_start": "2021-01-04",
+  "locked_test_end": "2024-12-31",
+  "locked_test_sessions": 1005,
+  "risk_budgets_satisfied": true,
+  "attribution_reconciliation_error": 2.6020852139652106e-18,
+  "passed": true
+}
